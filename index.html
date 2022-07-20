@@ -1,0 +1,259 @@
+<!--Hello digital composer! Welcome to our Genius, Joy and Love Webtext. Just follow along and with comments like this, and you'll make a really cool web document that helps you process, package, and circulate your learning experience. Through the process, you'll learn a little bit about coding and computer science.-->
+
+<!--When browsers access a web url, this index.html document is the first document it reads. The index.html serves as a roadmap for all of the information that the browser assembles on a screen. See if you can figure out what these two first lines of code are saying?-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<!--The <head> content organizes important information needed to assemble a web page, starting with the page title.-->
+<title>K experiences Genius, Joy and Love</title>
+<!--This next stuff below does important work to help tell different browsers what this page should look like on different screens like cell phones or desktops. Adaptability is important for accesibility purposes.-->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--Next is a link to the cascading style sheet or style.css file. Web designers use a cascading stylesheet to add styling to a website. Designers do this by "calling" a "class" in HTML and defining the class attributes on the style sheet. Doing so saves time and results in less code. On the style.css page you'll find attributes relating to font, text size, image size, among other details.-->
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<!--Now we're working in the body of the document. This is all the content we see on our page.-->
+<body>
+
+<!--Let's start with the first thing that shows up on the screen, "the Hero Block." Replace the project title and add your name. You don't need to do anything with the else with the code, but you do need to know that the style.css sheet controls and animates the hero image. To change the hero image, just add another jpg image to your project folder and rename it "hero.jpg".-->
+
+<div class="hero-image">
+  <div class="hero-text">Baddies & Their Imapct On The Culture</h1>
+      <h6>By Ka3</h6>
+  </div>
+</div>
+
+<!--In this next section we'll add content to explain to our viewer who we are and how we found ourselves at the Summer Institute.-->
+
+<div class="textblock" style="text-align: left">
+  <h2>A creative in search of new experiences...</h2>
+    <h3>My name is Ka3. Digital Mixologist in search of new experiences and ideas.</h3>
+    </div>
+
+<!--Replace the image here. You can also control image width and height %.-->
+<img src="p1.jpg" alt="describe the image HERE for accessibility purposes" style="width:60%;" class="center-img">
+<p style="text-align: center"><em>Style & Grace.</em></p>
+
+<!--Don't worry! You can't break this thing! Right? Control Z. Control Z. Control Z...-->
+
+<div class="textblock" style="text-align: left">
+    <h2>The Institute</h2>
+
+    <h3>From ancient times to present, these talented, and courageous women have been making glass shattering strides on the culure, and beyond! Why? Why not? </h3>
+    </div>
+
+
+    <!--Add more photos to your project folder for a photo grid, making sure the files end in .jpg or .png and replace/add to the names on the grid below on this html file. You can add more images if you wish, or subtract...see what happens--you have to be playful to find out how things work.-->
+
+ <div class="photogrid">
+        <div class="row">
+      <div class="column">
+        <img src="pgrid1.jpg" alt= "describe image here for accessibility issues">
+        <img src="pgrid2.jpg" alt= "describe image here for accessibility issues">
+            </div>
+    <div class="column">
+        <img src="pgrid3.jpg" alt= "describe image here for accessibility issues">
+        <img src="pgrid4.jpg" alt= "describe image here for accessibility issues">
+            </div>
+    <div class="column">
+        <img src="pgrid5.jpg" alt= "describe image here for accessibility issues">
+        <img src="pgrid6.jpg" alt= "describe image here for accessibility issues" >
+
+      </div>
+         </div>
+         <p><em>Add a caption.</em></p>
+            </div>
+
+
+<div class="textblock" style="text-align: left">
+    <h2>Engaged Pedagogy</h2>
+     <h3>How will you work with your students and community to center equity and justice in your educational practice? You might draw on our experiences with Drs. Hunter and Kinloch for ideas.</h3>
+
+<br>
+<br>
+
+<!--Add the mp3 from your interview/discussion with another colleague -->
+
+    <h4>My discussion with...</h4>
+
+    <audio controls>
+    <source src="media.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+    </audio>
+  </div>
+  <br>
+  <br>
+
+      <!--Replace the image here. You can also control image width and height %.-->
+
+<img src="p2.jpg" alt="describe the image HERE for accessibility purposes" style="width:100%;" class="center-img">
+      <p style="text-align: center"><em>Add a caption.</em></p>
+
+
+
+    <div class="textblock" style="text-align: left">
+        <h2>Moving Forward</h2>
+
+    <h3>How will you apply what you've learned from this experience? What concrete changes will you make when you return to your educational context? How will you care for yourself, your students, and your colleagues in ways that uplift a community of genius, joy, and love?</h3>
+    </div>
+    <!--Parallax images are styled on the style.css page in your files. To change this image, go to your project file folder and replace p4.jpg with an image of your own. -->
+
+  <div class="parallax"></div>
+
+
+
+  <div id="logo">
+          <img src="p3.jpg" alt="describe the image HERE for accessibility purposes" style="max-width:25%;max-height:25%;">
+          <img src="p4.jpg" alt="describe the image HERE for accessibility purposes" style="max-width:25%;max-height:25%;">
+          <p><b>generated by <a href="https://pitt-fuego.github.io/Pitt-Fuego-Coding-Tools/">Pitt Fuego</a></b></p>
+          <p><em>Why make a spark when you can light a fire?</em></p>
+  </div>
+
+
+  </body>
+     </html>
+
+
+
+
+
+     <!--Looking to add components? You've come to the right place. Copy and paste Code Snippets and add to the body section. Adjust class properties on style.css.
+
+
+     ***Add Text Block***
+
+     (Format textblock using inline styling: text-align: left, center, justify, right; Format text: Italics: <em>italics</em>; Bold: <b>bold</b>; Link Website: <a href="link">LinkName</a>; Link Asset: <a href=filename.pdf>FileName</a>; Line Breaks: <br></br>)
+
+     (use <h3> header and <p> for longer content)
+
+     <div class="textblock" style="text-align: left">
+         <h2>Header</h2>
+         <h3>We recommend using our mobile-ready text sizing. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h3>
+     </div>
+
+
+
+     ***Add Block Quote***
+
+     (Format text: Italics: <em>italics</em>; Bold: <b>bold</b>. For more stylings, find blockquote class on style.css)
+
+     <div class="blockquote" style="text-align: center">
+         <h2>Excepteur sint occaecat cupidatat non proident!</h2>
+     </div>
+
+
+
+     ***Add Bulleted Points to Textblock***
+
+     (Change <ul></ul> to <ol></ol> to change from unordered list to ordered list. For more stylings, find the ul/li classes on style.css)
+
+     <div class= "ul">
+             <li>first</li>
+             <li>second</li>
+             <li>third</li>
+     </div>
+
+     -or- (try a nested list)
+
+     <div class="ul">
+         <li>Coffee</li>
+         <li>Tea
+           <ul>
+             <li>Black tea</li>
+             <li>Green tea</li>
+           </ul>
+          </li>
+         <li>Milk</li>
+      </div>
+
+
+
+      ***Add a Button***
+
+      (Clearly label button for accessibility purposes. If this is not possible, include: aria-label=”label for accessibility purposes.” For more stylings, find button class on style.css)
+
+      <div class="buttonbox">
+         <a href="https://pitt-fuego.github.io/Pitt-Fuego-Coding-Tools/" class="button" aria-label="">Button</a>
+      </div>
+
+
+
+
+     ***Embed YouTube Video***
+
+     <div class="video">
+       <div class="video-container">
+         <iframe src="https://www.youtube.com/embed/VIDEO ID" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+     </div>
+         <p>Add a caption.</p>
+     </div>
+
+
+
+     ***Add a Standard Image***
+
+     (Control image properties with inline width value.)
+
+     <img src="fuego.jpg" alt="describe the image HERE for accessibility purposes" style="width:30%;" class="center-img">
+     <p style="text-align: center"><em>Add a caption.</em></p>
+
+
+
+     ***Add Image Block with Padding and Caption*** (Control image properties with inline width value.)
+
+     <div class="imgageblock">
+         <img src="fuego.jpg" alt="describe the image HERE for accessibility purposes" style="width:100%;">
+          <p style="text-align: center"><em>Add a caption.</em></p>
+     </div>
+
+
+
+     ***Add a Photo Grid***
+
+     <div class="photogrid">
+     <div class="row">
+         <div class="column">
+             <img src="pgrid1.jpg" alt="describe the image HERE for accessibility purposes">
+             <img src="pgrid2.jpg" alt="describe the image HERE for accessibility purposes">
+         </div>
+         <div class="column">
+             <img src="pgrid3.jpg" alt="describe the image HERE for accessibility purposes">
+             <img src="pgrid4.jpg" alt="describe the image HERE for accessibility purposes">
+         </div>
+         <div class="column">
+             <img src="pgrid5.jpg" alt="describe the image HERE for accessibility purposes">
+             <img src="pgrid6.jpg" alt="describe the image HERE for accessibility purposes">
+         </div>
+     </div>
+         <p><em>Add a caption.</em></p>
+     </div>
+
+
+
+     ***Add a Parallax Window***
+
+     (To adjust window, find parallax class on style.css)
+
+     <div class="parallax"></div>
+
+
+
+     ***Add a Copyright Footer***
+
+     <div id="footer">
+       <p>Copyright Your Name, Year.</p>
+     </div>
+
+
+
+
+     ***Need something that's not here? Then you probably don't need it. But okay...go to w3 Schools***
+
+
+
+     Looking to publish this webtext in GitHub? Here are your next steps:
+
+     Sign in to GitHub. Create a new repository. Name it. Click “uploading an existing file,” then select/drag and drop all of your files... all of them, index.html. style.css, readme, and your image assets. Click "commit." Now go to your repository "settings." Scroll down to "Pages." Here you will change "source" from "none" to "main" branch. This will publish your webtext online. Copy your URL from this settings page...and now it's time to circulate your webtext! Peace and love only, Stephen Quigley, University of Pittsburgh, 2021.-->
